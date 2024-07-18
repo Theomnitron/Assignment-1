@@ -1,5 +1,5 @@
 *{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: monospace;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -7,8 +7,9 @@
 
 header div{
     background-color: #4872e8;
-    text-align: right;
-    padding: 3px;
+    margin-bottom: -13px;
+    /* text-align: right; */
+    /* padding: 3px; */
     text-decoration: none;
 }
 
@@ -16,7 +17,7 @@ header div h1{
     text-align: right;
     color: white;
     font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: monospace;
     position: absolute;
     top: 15px;
     left: 170px;
@@ -51,14 +52,31 @@ header div.navbar a.navbar_links:hover{
     text-decoration: overline;
 }
 
-
-
-header div h3:hover{
-    background-color: white;
-
+header div.Background_Text h3{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 400px;
+    padding: 5px;
 }
 
-header div h6:hover{
+header div.Background_Text h6{
+    color: white;
+    font-size: 15px;
+    position: relative;
+    top: 403px;
+    padding: 5px;
+}
+
+header div.Background_Text h3:hover{
+    display: inline-block;
+    color: black;
+    background-color: white;
+}
+
+header div.Background_Text h6:hover{
+    display: inline-block;
+    color: black;
     background-color: white;
 }
 
@@ -91,11 +109,49 @@ main div.Section img:hover{
 }
 
 main div h6{
+    font-size: 30px;
     color: white;
     background-color: #4872e8;
+    display: inline-block;
+    padding: 3px 169px;
+    position: relative;
 }
 
+main div h6:hover{
+    width: 10%;
+}
 
+main div h6#A{
+    top: -332px;
+    left: -10px;
+}
+
+main div h6#B{
+    top: -332px;
+    left: 0px;
+    padding: 3px 170px;
+}
+
+main div h6#C{
+    top: -332px;
+    left: 10px;
+}
+
+main div h6#D{
+    top: -92px;
+    left: -10px;
+}
+
+main div h6#E{
+    top: -92px;
+    left: 0px;
+    padding: 3px 170px;
+}
+
+main div h6#F{
+    top: -92px;
+    left: 10px;
+}
 
 footer{
     background-color: black;
@@ -103,11 +159,15 @@ footer{
 }
 
 footer div h3{
-    font-family: serif;
+    font-family: monospace;
+    font-size: 30px;
     padding: 40px;
+    padding-bottom: 80px;
 }
 
 footer div.Piracy_Info h6{
+    color: rgba(255, 255, 255, 0.598);
     background-color: #4872e8;
+    font-size: 13px;
     padding: 15px;
 }
