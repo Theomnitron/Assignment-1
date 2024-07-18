@@ -1,0 +1,113 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header div{
+    background-color: #4872e8;
+    text-align: right;
+    padding: 3px;
+    text-decoration: none;
+}
+
+header div h1{
+    text-align: right;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 15px;
+    left: 170px;
+}
+
+header div h1:hover{
+    text-decoration: overline;
+}
+
+header div.navbar a.navbar_links{
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+    position: absolute;
+    top: -14px;
+}
+
+header div.navbar a#navbar_Home{
+    right: 21%;
+}
+
+header div.navbar a#navbar_Projects{
+    right: 12%;
+}
+
+header div.navbar a#navbar_Contact{
+    right: 4%;
+}
+
+header div.navbar a.navbar_links:hover{
+    color: white;
+    text-decoration: overline;
+}
+
+
+
+header div h3:hover{
+    background-color: white;
+
+}
+
+header div h6:hover{
+    background-color: white;
+}
+
+
+
+main{
+    background-color: white;
+    text-align: center;
+}
+
+main div img{
+    width: 100%;
+}
+
+main div h3{
+    font-size: 50px;
+    font-family: monospace;
+}
+
+
+main div.Section img{
+    align-content: center;
+    width: 30%;
+    padding: 5px;
+
+}
+
+main div.Section img:hover{
+    width: 31%;
+}
+
+main div h6{
+    color: white;
+    background-color: #4872e8;
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer div h3{
+    font-family: serif;
+    padding: 40px;
+}
+
+footer div.Piracy_Info h6{
+    background-color: #4872e8;
+    padding: 15px;
+}
