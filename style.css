@@ -108,54 +108,41 @@ main div.Section img:hover{
     width: 31%;
 }
 
-main div h6{
-    font-size: 30px;
-    color: white;
-    background-color: #4872e8;
+.Img_Group{
+    text-align: center;
+    margin: 0px 20px;
+}
+.Img_Indiv{
     display: inline-block;
-    padding: 3px 169px;
-    position: relative;
+    width: 30%;
+    background-color: rgb(60, 60, 226);
+    margin: 5px  3px;
 }
 
-main div h6:hover{
-    width: 10%;
+.image_Indiv img{
+    width: 100%;
 }
 
-main div h6#A{
-    top: -332px;
-    left: -10px;
+.Img_Indiv p{
+    background-color: rgb(60, 60, 226);
+    padding: 25px;
+    color: white;
 }
 
-main div h6#B{
-    top: -332px;
-    left: 0px;
-    padding: 3px 170px;
-}
-
-main div h6#C{
-    top: -332px;
-    left: 10px;
-}
-
-main div h6#D{
-    top: -92px;
-    left: -10px;
-}
-
-main div h6#E{
-    top: -92px;
-    left: 0px;
-    padding: 3px 170px;
-}
-
-main div h6#F{
-    top: -92px;
-    left: 10px;
+.Img_Indiv:hover{
+    width: 30.5%;
+    text-decoration: overline;
+    color: white;
 }
 
 footer{
     background-color: black;
     color: white;
+}
+
+footer div.socials i{
+    color: white;
+    display: inline-block;
 }
 
 footer div h3{
