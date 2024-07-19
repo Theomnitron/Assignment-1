@@ -142,7 +142,10 @@ footer{
 
 footer div.socials i{
     color: white;
-    display: inline-block;
+}
+
+footer div.social_links{
+    display: inline;
 }
 
 footer div h3{
